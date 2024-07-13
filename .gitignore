@@ -1,0 +1,85 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build artifacts
+build/
+devel/
+install/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker intermediate files
+docker-compose.override.yml
+.docker/
+
+# Ignore Helm files
+helm/Chart.lock
+helm/helmfile.d/
+helm/release/
+helmfile.yaml
+
+# Ignore Kubernetes config
+.kube/
+k8s/.kube/
+
+# Ignore environment variables files
+.env
+*.env
+
+# Ignore Tekton files
+tekton/.tekton/
+
+# Ignore pipeline logs and temporary files
+pipeline/logs/
+pipeline/tmp/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore any other OS generated files
+*.swp
+*.swo
+*.bak
+
+# Ignore node_modules (if you use Node.js for any scripts)
+node_modules/
+
+# Ignore coverage reports
+coverage/
+*.cover
+.coverage
+.coverage.*
+.cache/
+
+# Ignore additional build artifacts
+*.out
+*.o
+*.a
+*.so
+*.d
+
+# Ignore package management files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore project specific files
+ros_talker_listener_project/docker/.env
+ros_talker_listener_project/.env
+ros_talker_listener_project/.venv
+
+# Ignore Python virtual environment
+venv/
+.env/
+
